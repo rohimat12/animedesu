@@ -1,0 +1,229 @@
+CRITICAL - 2021-09-22 13:04:31 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-22 13:04:50 --> Invalid file: Admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('Admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:05:18 --> Invalid file: Admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('Admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:05:20 --> Invalid file: Admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('Admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:05:20 --> Invalid file: Admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('Admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:05:21 --> Invalid file: Admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('Admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:05:30 --> Invalid file: admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:05:31 --> Invalid file: admin/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(9): view('admin/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-22 13:10:59 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\SDN Ci...')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#9 {main}
+CRITICAL - 2021-09-22 13:40:29 --> Invalid file: home/index.php
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(9): view('home/index')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+ERROR - 2021-09-22 14:20:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-09-22 14:20:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Models\AnimeModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(18): App\Models\AnimeModel->getAnime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#11 {main}
+CRITICAL - 2021-09-22 14:20:20 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\SDN Ci...', 96, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\Users\\SDN Ci...')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-22 14:21:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-09-22 14:21:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Models\AnimeModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(18): App\Models\AnimeModel->getAnime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#11 {main}
+CRITICAL - 2021-09-22 14:21:20 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\SDN Ci...', 96, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\Users\\SDN Ci...')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-22 14:21:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-09-22 14:21:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Models\AnimeModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(18): App\Models\AnimeModel->getAnime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#11 {main}
+CRITICAL - 2021-09-22 14:21:20 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\SDN Ci...', 96, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\Users\\SDN Ci...')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-22 14:21:21 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-09-22 14:21:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Models\AnimeModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(18): App\Models\AnimeModel->getAnime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#11 {main}
+CRITICAL - 2021-09-22 14:21:21 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\SDN Ci...', 96, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\Users\\SDN Ci...')
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-22 14:45:07 --> Undefined index: judul
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\home\anime.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDN Ci...', 5, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\SDN Ci...')
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home/anime', Array, true)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(32): view('home/anime', Array)
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->anime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#10 {main}
+CRITICAL - 2021-09-22 14:45:29 --> Undefined index: judul
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\home\anime.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDN Ci...', 5, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\SDN Ci...')
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home/anime', Array, true)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(32): view('home/anime', Array)
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->anime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#10 {main}
+CRITICAL - 2021-09-22 14:45:31 --> Too few arguments to function App\Controllers\Home::episode(), 0 passed in C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->episode()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#5 {main}

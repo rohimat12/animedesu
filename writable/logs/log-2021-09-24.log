@@ -1,0 +1,72 @@
+CRITICAL - 2021-09-24 00:55:05 --> Undefined index: musim
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\admin\anime.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDN Ci...', 42, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\SDN Ci...')
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/anime', Array, true)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Admin.php(48): view('admin/anime', Array)
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->anime()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#10 {main}
+CRITICAL - 2021-09-24 01:31:51 --> Undefined index: total_episdoe
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Views\home\index.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDN Ci...', 163, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\SDN Ci...')
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(40): view('home/index', Array)
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#10 {main}
+CRITICAL - 2021-09-24 01:34:11 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(40): view('home/index', Array)
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+CRITICAL - 2021-09-24 01:37:34 --> syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\routing\app\Controllers\Home.php(40): view('home/index', Array)
+#3 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDN Cihideung\Pictures\Website\routing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDN Cihideung\Pictures\Website\routing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#8 {main}
+ERROR - 2021-09-24 02:30:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-09-24 02:30:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\SDN Cihideung\Pictures\Website\animedesu\app\Models\WebModel.php(18): CodeIgniter\BaseModel->first()
+#5 C:\Users\SDN Cihideung\Pictures\Website\animedesu\app\Controllers\Home.php(27): App\Models\WebModel->getDataWeb('1')
+#6 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\SDN Cihideung\Pictures\Website\animedesu\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\SDN Ci...')
+#11 {main}
+CRITICAL - 2021-09-24 02:30:22 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\SDN Cihideung\Pictures\Website\animedesu\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\SDN Ci...', 96, Array)
+#1 C:\Users\SDN Cihideung\Pictures\Website\animedesu\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\Users\\SDN Ci...')
+#3 C:\Users\SDN Cihideung\Pictures\Website\animedesu\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
