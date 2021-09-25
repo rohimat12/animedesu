@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Models\AnimeModel;
 use App\Models\EpisodeModel;
 use App\Models\HalamanModel;
-use CodeIgniter\View\View as ViewView;
+use App\Models\AdminModel;
 
 class Admin extends BaseController
 {
@@ -15,6 +15,7 @@ class Admin extends BaseController
         $this->animeModel = new AnimeModel();
         $this->episodeModel = new EpisodeModel();
         $this->halamanModel = new HalamanModel();
+        $this->adminModel = new AdminModel();
     }
 
     public function index()
@@ -35,6 +36,8 @@ class Admin extends BaseController
         echo view('template/footer_end');
     }
 
+    
+
     public function anime()
     {
         $data = [
@@ -51,66 +54,37 @@ class Admin extends BaseController
         echo view('template/footer_end');
     }
 
-    public function new_anime()
-    {
-            $jikan = [
-                'title'             =>'',
-                'image_url'         => '',
-                'title_japanese'    => '',
-                'score'             => '',
-                'producers'         => ['data'  => ['name' => '']],
-                'type'              =>'',
-                'status'            => '',
-                'episodes'          => '',
-                'duration'          => '',
-                'studios'           => ['data'  => ['name' => '']],
-                'genres'            => ['data'  => ['name' => '']],
-                'premiered'         => ''
-            ];
-            $jikan = json_decode(json_encode($jikan));
-            $data = [
-                'judul' => 'Tambah Anime | Admin Panel',
-                'jikan' => $jikan,
-                'rilis' => ''
-            ];
-            echo view('template/header', $data);
-            echo view('template/sidebar');
-            echo view('template/nav');
-            echo view('template/footer_ck');
-            echo view('admin/new_anime', $data);
-            echo view('template/footer_head');
-            // echo view('template/footer_table');
-            echo view('template/footer_end');
-                    
-    }
+    public function new_anime(){
+        $anime_id = $this->request->getVar('anime_id');
+        $anime_id =$this->adminModel->getJikan($anime_id);  
 
-    public function new_anime2()
-    {
-        $anime_ad = $this->request->getVar('anime_id');
-        //dd($anime_ad);
-        if (isset($anime_ad)){
-            $url = "https://api.jikan.moe/v3/anime/$anime_ad";
-            $url = file_get_contents($url);
-            $json = json_decode($url);
-
-            preg_match_all('/"aired":.*string".*?"(.*?)"/', $url, $rilis);
-            $rilis = $rilis[1][0];
-
-            $data = [
-                'judul' => 'Tambah Anime | Admin Panel',
-                'jikan' => $json,
-                'rilis' => $rilis
-            ];
-            echo view('template/header', $data);
-            echo view('template/sidebar');
-            echo view('template/nav');
-            echo view('template/footer_ck');
-            echo view('admin/new_anime2', $data);
-            echo view('template/footer_head');
-            // echo view('template/footer_table');
-            echo view('template/footer_end');
-        }
-    }       
+        $data = [
+            'judul' => 'Tambah Anime | Admin Panel',
+            'judul_anime' => $anime_id['judul_anime'],
+            'img' => $anime_id['img'],
+            'sinopsis' => $anime_id['sinopsis'],
+            'japan' => $anime_id['japan'],
+            'skor' => $anime_id['skor'],
+            'produser' => $anime_id['produser'],
+            'tipe' => $anime_id['tipe'],
+            'status' => $anime_id['status'],
+            'episode' => $anime_id['episode'],
+            'durasi' => $anime_id['durasi'],
+            'studio' => $anime_id['studio'],
+            'genre' => $anime_id['genre'],
+            'musim' => $anime_id['musim'],
+            'rilis' => $anime_id['rilis']            
+        ];
+        // dd($data);
+        echo view('template/header', $data);
+        echo view('template/sidebar');
+        echo view('template/nav');
+        echo view('template/footer_ck');
+        echo view('admin/new_anime', $data);
+        echo view('template/footer_head');
+        // echo view('template/footer_table');
+        echo view('template/footer_end');
+    }  
     
     public function save_anime(){
         $slug = url_title($this->request->getVar('judul'), '-', true);
