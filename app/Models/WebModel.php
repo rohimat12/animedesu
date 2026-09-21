@@ -12,9 +12,19 @@ class WebModel extends Model
 
     public function getDataWeb($id = false)
     {
-        if ($id == false){
+        if ($id === false) {
             return $this->findAll();
         }
-        return $this->where(['id' => $id])->first();
+        $data = $this->where(['id' => $id])->first();
+        if (!$data) {
+            return [
+                'id' => 1,
+                'nama_situs' => 'Animedesu',
+                'logo' => 'img/logo.png',
+                'slug' => 'animedesu',
+                'deskripsi' => 'Nonton Anime Subtitle Indonesia'
+            ];
+        }
+        return $data;
     }
 }

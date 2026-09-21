@@ -1,58 +1,47 @@
 <!-- Footer Section Begin -->
 <footer class="footer">
-        <div class="page-up">
-            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="footer__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4">
+                <div class="footer__logo">
+                    <a href="/" class="text-decoration-none">
+                        <h4 class="text-white font-weight-bold m-0">
+                            Anime<span style="color: #e53637;">desu</span>
+                        </h4>
+                    </a>
                 </div>
-                <div class="col-lg-6">
-                    <div class="footer__nav">
-                        <ul>
-                            <li class="active"><a href="./index.html">Homepage</a></li>
-                            <li><a href="./categories.html">Categories</a></li>
-                            <li><a href="./blog.html">Our Blog</a></li>
-                            <li><a href="#">Contacts</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="footer__nav text-center">
+                    <ul>
+                        <li class="active"><a href="/">Beranda</a></li>
+                        <li><a href="/admin">Admin Panel</a></li>
+                    </ul>
                 </div>
-                <div class="col-lg-3">
-                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-
-                  </div>
-              </div>
-          </div>
-      </footer>
-      <!-- Footer Section End -->
-
-      <!-- Search model Begin -->
-      <div class="search-model">
-        <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-switch"><i class="icon_close"></i></div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
-            </form>
+            </div>
+            <div class="col-lg-4 col-md-4 text-right">
+                <p class="m-0 text-muted" style="font-size: 13px;">
+                    Copyright &copy; <?= date('Y'); ?> Animedesu. All rights reserved.
+                </p>
+            </div>
         </div>
     </div>
-    <!-- Search model end -->
+</footer>
+<!-- Footer Section End -->
 
-    
 <!-- Js Plugins -->
-<script src="/assets/public/js/jquery-3.3.1.min.js"></script>
-    <script src="/assets/public/js/bootstrap.min.js"></script>
-    <script src="/assets/public/js/player.js"></script>
-    <script src="/assets/public/js/jquery.nice-select.min.js"></script>
-    <script src="/assets/public/js/mixitup.min.js"></script>
-    <script src="/assets/public/js/jquery.slicknav.js"></script>
-    <script src="/assets/public/js/owl.carousel.min.js"></script>
-    <script src="/assets/public/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Smooth scroll to top button
+    document.getElementById('scrollToTopButton')?.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
 
 </body>
-
 </html>

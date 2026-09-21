@@ -42,10 +42,10 @@
                             </td>
                             <td>
                                 <div class="row ml-1">
-                                    <a href="#" class="btn-toolbar btn-success btn-sm btn-circle" data-toggle="modal" data-target="#editHalaman<?= $halaman['id']; ?>">
+                                    <a href="#" class="btn-toolbar btn-success btn-sm btn-circle mr-1" data-toggle="modal" data-target="#editHalaman<?= $halaman['id']; ?>">
                                         <i class="fas fa-fw fa-edit"></i></a>
-                                    <button class="btn-toolbar btn-danger btn-sm btn-circle">
-                                        <i class="fas fa-fw fa-trash"></i></button>
+                                    <a href="/admin/delete_page/<?= $halaman['id']; ?>" class="btn-toolbar btn-danger btn-sm btn-circle" onclick="return confirm('Yakin ingin menghapus halaman <?= addslashes($halaman['judul']); ?>?')">
+                                        <i class="fas fa-fw fa-trash"></i></a>
                                 </div>
                             </td>
                         </tr>

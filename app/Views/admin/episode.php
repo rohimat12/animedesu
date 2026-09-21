@@ -38,8 +38,8 @@
                         <td><?= $row['episode_ke']; ?></td>
                         <td>
                             <div class="row ml-1">
-                            <a href="/episode/edit_episode/<?= $row['slug']; ?>" class="btn-toolbar btn-success btn-sm btn-circle" data-toggle="modal" data-target="#editEpisode<?= $row['id']; ?>">
-                            <i class="fas fa-fw fa-edit"></i></a><a href="/episode/delete" class="btn-toolbar btn-danger btn-sm btn-circle">
+                            <a href="/episode/edit_episode/<?= $row['slug']; ?>" class="btn-toolbar btn-success btn-sm btn-circle mr-1" data-toggle="modal" data-target="#editEpisode<?= $row['id']; ?>">
+                            <i class="fas fa-fw fa-edit"></i></a><a href="/admin/delete_episode/<?= $row['id']; ?>" class="btn-toolbar btn-danger btn-sm btn-circle" onclick="return confirm('Yakin ingin menghapus episode <?= addslashes($row['judul']); ?>?')">
                             <i class="fas fa-fw fa-trash"></i></a>
                             </div>
                         </td>
